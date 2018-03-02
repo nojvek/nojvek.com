@@ -19,25 +19,16 @@ a {
   text-decoration: none;
 }
 .name {
-  float: left;
-  width: 350px;
   text-align: center;
 }
-.photo { 
-  background: url('profile.png');
+.photo {
+  background: url('profile.jpg');
   background-repeat: no-repeat;
-  background-size: 110%;
-  background-position: 0 -10px;
+  background-size: 100%;
   height: 7.5em;
   width: 7.5em;
   border-radius: 50%;
   margin: 0 auto;
-}
-.about-me {
-  margin-left: 350px;
-  max-width: 33em;
-  padding-right: 3em;
-  left: 0;
 }
 .name a {
   font-size: 1em;
@@ -46,6 +37,7 @@ a {
   width: 2em;
   height: 2em;
   line-height: 2em;
+  margin-bottom: 2.5em;
 }
 .name a:hover {
   background-color: #ffffff;
@@ -64,6 +56,15 @@ a {
   display: none;
 }
 
+/* responsiveness */
+.name,
+.about-me {
+  width: initial;
+  max-width: 35em;
+  padding: 0 2.5em;
+  margin: 0 auto;
+}
+
 /* animations */
 
 @keyframes fadeInUp {
@@ -71,9 +72,11 @@ a {
   100% { opacity: 1; transform: translate3d(0,0,0); }
 }
 
-.name,
-.about-me {
+.name {
   animation: fadeInUp 1.5s ease-in-out;
+}
+.about-me {
+  animation: fadeInUp 1.5s 0.5s ease-in-out both;
 }
 .social > li:nth-child(1) {
   animation: fadeInUp 1s 0.5s ease-in-out both;
@@ -87,32 +90,7 @@ a {
 .social > li:nth-child(4) {
   animation: fadeInUp 1s 1.4s ease-in-out both;
 }
-
-/* media queries */
-
-@media only screen and (max-width: 1000px) {
-  .name {
-    width: 325px;
-  }
-  .about-me {
-    margin-left: 325px;
-  }
+.social > li:nth-child(5) {
+  animation: fadeInUp 1s 1.7s ease-in-out both;
 }
 
-@media only screen and (max-width: 900px) {
-  p {
-    font-size: 1.1em;
-  }
-  .name,
-  .about-me {
-    float: none;
-    width: initial;
-    max-width: 35em;
-    padding: 0 2.5em;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .name {
-    margin-bottom: 2.5em;
-  }
-}
