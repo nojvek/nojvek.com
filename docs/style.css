@@ -1,0 +1,118 @@
+body {
+  background-color: #f9f9f9;
+  color: #555555;
+  margin: 5em 0;
+  font-size: 1em;
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 1.7em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+.name {
+  float: left;
+  width: 350px;
+  text-align: center;
+}
+.photo { 
+  background: url('profile.png');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: 0 -10px;
+  height: 7.5em;
+  width: 7.5em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.about-me {
+  margin-left: 350px;
+  max-width: 33em;
+  padding-right: 3em;
+  left: 0;
+}
+.name a {
+  font-size: 1em;
+  border: 0;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+.name a:hover {
+  background-color: #ffffff;
+}
+.about-me a {
+  border-bottom: dotted 1px;
+}
+.social {
+  padding: 0.2em 0;
+}
+.social > li {
+  display: inline-block;
+  width: 2.5em;
+}
+.label {
+  display: none;
+}
+
+/* animations */
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translate3d(0,0.5em,0); }
+  100% { opacity: 1; transform: translate3d(0,0,0); }
+}
+
+.name,
+.about-me {
+  animation: fadeInUp 1.5s ease-in-out;
+}
+.social > li:nth-child(1) {
+  animation: fadeInUp 1s 0.5s ease-in-out both;
+}
+.social > li:nth-child(2) {
+  animation: fadeInUp 1s 0.8s ease-in-out both;
+}
+.social > li:nth-child(3) {
+  animation: fadeInUp 1s 1.1s ease-in-out both;
+}
+.social > li:nth-child(4) {
+  animation: fadeInUp 1s 1.4s ease-in-out both;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1000px) {
+  .name {
+    width: 325px;
+  }
+  .about-me {
+    margin-left: 325px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  p {
+    font-size: 1.1em;
+  }
+  .name,
+  .about-me {
+    float: none;
+    width: initial;
+    max-width: 35em;
+    padding: 0 2.5em;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .name {
+    margin-bottom: 2.5em;
+  }
+}
