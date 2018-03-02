@@ -1,8 +1,8 @@
 # nojvek.com
 
-This is my personal website.
+Hi! I'm Noj Vek. I build software that is loved by its users.
 
-//TODO - Architect into simple SON syntax driven app with a simple editor.
+If you want to get in touch with me, file an issue or send me an email at hello@nojvek.com.
 
-Basically I want to build an admin portal where you write data in a block editor and the view changes live as you type.
+
 
