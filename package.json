@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "npm run pug && npm run styl",
+    "start": "npm run build && npm run server",
     "pug": "node node_modules/pug-cli --out docs src",
     "styl": "node node_modules/stylus/bin/stylus --inline --sourcemap --compress --out docs src",
     "server": "cd docs && node ../node_modules/http-server/bin/http-server"
