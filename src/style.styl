@@ -1,6 +1,12 @@
+// Theme Colors
+$fg_color = #555
+$bg_color = #f9f9f9
+$a_color = #333
+$a_hover_color = #006bad
+
 body
-  background-color #f9f9f9
-  color #555555
+  background-color $bg_color
+  color $fg_color
   margin 5em 0
   font-size 1em
   font-family "Helvetica Neue", "Open Sans", sans-serif
@@ -18,8 +24,13 @@ p
   letter-spacing 0.02em
 
 a
-  color #333333
+  color $a_color
   text-decoration none
+
+  &:hover
+    color $a_hover_color
+  &:visited
+    color $a_color
 
 .profile
   text-align center
