@@ -21,9 +21,6 @@ a {
   color: #333;
   text-decoration: none;
 }
-a:hover {
-  color: #006bad;
-}
 a:visited {
   color: #333;
 }
@@ -45,6 +42,7 @@ a:visited {
 }
 .profile a:hover {
   background-color: #fff;
+  color: #006bad;
 }
 .profile .photo {
   background: url("profile.jpg");
@@ -60,6 +58,10 @@ a:visited {
 }
 .about-me a {
   border-bottom: dotted 1px;
+}
+.about-me a:hover {
+  border-bottom: solid 1px;
+  color: #006bad;
 }
 .profile,
 .about-me {

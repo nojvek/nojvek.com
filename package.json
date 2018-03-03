@@ -13,7 +13,7 @@
     "start": "npm run build && npm run server",
     "pug": "node node_modules/pug-cli --pretty --out docs src",
     "styl": "node node_modules/stylus/bin/stylus --inline --out docs src",
-    "server": "cd docs && node ../node_modules/http-server/bin/http-server -s -c -1"
+    "server": "cd docs && node ../node_modules/http-server/bin/http-server -s -c0"
   },
   "dependencies": {},
   "devDependencies": {
