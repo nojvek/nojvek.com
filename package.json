@@ -9,11 +9,11 @@
     "url": "git+https://github.com/nojvek/nojvek.com.git"
   },
   "scripts": {
-    "build": "npm run pug && npm run styl",
-    "start": "npm run build && npm run server",
-    "pug": "node node_modules/pug-cli --pretty --out docs src",
-    "styl": "node node_modules/stylus/bin/stylus --inline --out docs src",
-    "server": "cd docs && node ../node_modules/http-server/bin/http-server -s -c0"
+    "build-pug": "yarn pug --pretty --out docs src",
+    "build-styl": "yarn stylus --inline --out docs src",
+    "build": "yarn build-pug && yarn build-styl",
+    "server": "(cd docs && yarn http-server -s -c0 -p 8080)",
+    "start": "yarn build && yarn server"
   },
   "dependencies": {},
   "devDependencies": {
