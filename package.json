@@ -12,7 +12,7 @@
     "build-pug": "yarn pug --pretty --out docs src",
     "build-styl": "yarn stylus --inline --out docs src",
     "build": "yarn build-pug && yarn build-styl",
-    "server": "(cd docs && yarn http-server -s -c0 -p 8080)",
+    "server": "(cd docs && yarn http-server -s -c0 -p 8081)",
     "start": "yarn build && yarn server"
   },
   "dependencies": {},
