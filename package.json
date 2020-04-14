@@ -14,7 +14,7 @@
     "clean": "rm -rf public",
     "copy-assets": "mkdir public && cp src/assets/* public",
     "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl",
-    "server": "(cd docs && yarn http-server -s -c0 -p 8081)",
+    "server": "(cd public && yarn http-server -s -c0 -p 8081)",
     "start": "yarn build && yarn server"
   },
   "dependencies": {},
