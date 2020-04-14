@@ -9,9 +9,11 @@
     "url": "git+https://github.com/nojvek/nojvek.com.git"
   },
   "scripts": {
-    "build-pug": "yarn pug --pretty --out docs src",
-    "build-styl": "yarn stylus --inline --out docs src",
-    "build": "yarn build-pug && yarn build-styl",
+    "build-pug": "yarn pug --pretty --out public src",
+    "build-styl": "yarn stylus --inline --out public src",
+    "clean": "rm -rf public",
+    "copy-assets": "mkdir public && cp src/assets/* public",
+    "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl",
     "server": "(cd docs && yarn http-server -s -c0 -p 8081)",
     "start": "yarn build && yarn server"
   },

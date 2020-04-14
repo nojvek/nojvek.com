@@ -16,8 +16,12 @@ jobs:
           yarn build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
         with:
+          target_branch: gh-pages
+          build_dir: public
+          keep_history: true
+          allow_empty_commit: false
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master
-          FOLDER: docs
