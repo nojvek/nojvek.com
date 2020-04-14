@@ -21,7 +21,7 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: public
-          keep_history: true
+          keep_history: false
           allow_empty_commit: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
