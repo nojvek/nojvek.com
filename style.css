@@ -1,0 +1,134 @@
+body {
+  background-color: #f9f9f9;
+  color: #555;
+  margin: 5em 0;
+  font-size: 1em;
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 1.7em;
+  font-weight: 300;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+}
+p,
+li {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.8em;
+  letter-spacing: 0.02em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:visited {
+  color: #333;
+}
+.profile {
+  text-align: center;
+  animation: fadeInUp 0.4s ease-in-out;
+}
+.profile .name {
+  padding-left: 0.3em;
+}
+.profile a {
+  font-size: 1em;
+  border: 0;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  margin-bottom: 2.5em;
+}
+.profile a:hover {
+  background-color: #fff;
+  color: #006bad;
+}
+.profile .photo {
+  background: url("profile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 7.5em;
+  width: 7.5em;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.about-me {
+  animation: fadeInUp 0.4s ease-in-out 0.2s;
+}
+.about-me a {
+  border-bottom: dotted 1px;
+}
+.about-me a:hover {
+  border-bottom: solid 1px;
+  color: #006bad;
+}
+.profile,
+.about-me {
+  max-width: 35em;
+  padding: 0 2.5em;
+  margin: 0 auto;
+}
+.social {
+  padding: 0.2em 0;
+}
+.social > li {
+  display: inline-block;
+  width: 2.2em;
+}
+.social > li:nth-child(1) {
+  animation: fadeInUp 0.4s ease-in-out both 0.1s;
+}
+.social > li:nth-child(2) {
+  animation: fadeInUp 0.4s ease-in-out both 0.2s;
+}
+.social > li:nth-child(3) {
+  animation: fadeInUp 0.4s ease-in-out both 0.3s;
+}
+.social > li:nth-child(4) {
+  animation: fadeInUp 0.4s ease-in-out both 0.4s;
+}
+.social > li:nth-child(5) {
+  animation: fadeInUp 0.4s ease-in-out both 0.5s;
+}
+@-moz-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0.5em, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0.5em, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-o-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0.5em, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0.5em, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
