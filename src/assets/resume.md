@@ -18,23 +18,24 @@ Getting it right requires multiple iterations, therefore the speed of iteration 
 
 Recurrency (https://recurrency.com) is building ERP automation platform for distributors using machine learning and workflow automation.
 
-- First product engineer. Work closely with founder, product manager to scope various projects and lead teams.
-- Built the frontend from ground up with Webpack/Typescript/Esbuild + Netlify deploys.
-- Implement E2E + Unit test framework to scale frontend + api services.
-- Established product team so engineers work full stack on frontent + api services. Scaled to 20+ engineers.
-- Implemented end to end modules for purchasing, planning, payments and reporting.
-- Mongo -> Postgres migration.
-- Implement Snowflake backend for reporting & Typesense backend for typo-tolerant search.
-- Extract Load Transform strategy using DBT + Airflow for data transformations.
-- p90 recurrency page navigation under 1s, api calls under 500ms.
-- Scale from 0 entiprise customers to 150+ enterprise customers. 
-
+- First product engineer. Collaborated closely with the Founder and Product Manager to strategically scope projects and optimize timelines.
+- Architected and developed the frontend from the ground up, leveraging Webpack, TypeScript, and Esbuild, with seamless Netlify deployments.
+- Designed and implemented comprehensive E2E and Unit test frameworks, enabling scalable frontend and API services.
+- Spearheaded the establishment of a full-stack product team, successfully scaling to 20+ engineers proficient in both frontend and api services.
+- Instituted a robust technical documentation process, ensuring smooth and predictable planning and execution cycles.
+- Engineered end-to-end modules in app.recurrency.com namely: purchasing, planning, sales, admin and reporting.
+- Led a complex database migration from MongoDB to PostgreSQL, enhancing data management and performance.
+- Integrated Snowflake for advanced reporting capabilities and implemented Typesense for typo-tolerant search functionality.
+- Developed and executed an Extract, Load, Transform (ELT) strategy utilizing DBT and Airflow for efficient data transformations.
+- Optimized performance metrics, achieving p90 recurrency page navigation under 1 second and API calls under 500ms.
+- Instrumental in scaling the business from 0 to 150+ enterprise customers, driving significant annual recurring revenue growth.
+  
 ### Senior Software Engineer at Stripe - Remote (Seattle, Washington)
 *Nov 2020 – Mar 2021*
 
 Stripe (https://stripe.com) is building the payment infrastructure for the internet. I was on the Frontend Infrastructure team.
 
-- Flow -> Typescript migration across Stripe Dashboard, Platform & Sail Design system.
+- Flow -> Typescript migration across Stripe Dashboard, Stripe Platform & Sail Design system.
 - Frontend devloop instrumentation to measure iteration from code change to code applied in the browser. 
 - Added backend caching middleware to Ruby server based on Rack. Stripe saves 1d of productivity every week due to perf improvements.
 - Strategy for devbox per code branch for faster iteration.
