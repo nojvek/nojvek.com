@@ -13,16 +13,33 @@ Getting it right requires multiple iterations, therefore the speed of iteration 
 
 ## PROFESSIONAL EXPERIENCE
 
-### Senior Software Engineer at Stripe (Seattle, Washington)
+### Founding Lead Engineer + Staff Software Engineer at Recurrency - Remote (Seattle, Washington & Tampa, Florida)
+*Apr 2021 – Present*
+
+Recurrency (https://recurrency.com) is building ERP automation platform for distributors using machine learning and workflow automation.
+
+- First product engineer. Work closely with founder, product manager to scope various projects and lead teams.
+- Built the frontend from ground up with Webpack/Typescript/Esbuild + Netlify deploys.
+- Implement E2E + Unit test framework to scale frontend + api services.
+- Established product team so engineers work full stack on frontent + api services. Scaled to 20+ engineers.
+- Implemented end to end modules for purchasing, planning, payments and reporting.
+- Mongo -> Postgres migration.
+- Implement Snowflake backend for reporting & Typesense backend for typo-tolerant search.
+- Extract Load Transform strategy using DBT + Airflow for data transformations.
+- p90 recurrency page navigation under 1s, api calls under 500ms.
+- Scale from 0 entiprise customers to 150+ enterprise customers. 
+
+### Senior Software Engineer at Stripe - Remote (Seattle, Washington)
 *Nov 2020 – Mar 2021*
 
 Stripe (https://stripe.com) is building the payment infrastructure for the internet. I was on the Frontend Infrastructure team.
 
-- Frontend devloop instrumentation to measure time from code change to code applied in the browser. Also added React HMR to various webpack configs.
+- Flow -> Typescript migration across Stripe Dashboard, Platform & Sail Design system.
+- Frontend devloop instrumentation to measure iteration from code change to code applied in the browser. 
 - Added backend caching middleware to Ruby server based on Rack. Stripe saves 1d of productivity every week due to perf improvements.
-- Flow -> Typescript migration strategy.
+- Strategy for devbox per code branch for faster iteration.
 
-### Senior Software Engineer at Mixpanel (Seattle, Washington)
+### Senior Software Engineer at Mixpanel - Hybrid (Seattle, Washington)
 *Mar 2016 – Nov 2020*
 
 Mixpanel (https://mixpanel.com) is a petabyte-scale product analytics tool.
@@ -53,15 +70,6 @@ Power BI (https://powerbi.microsoft.com) is Microsoft's Business Intelligence of
 - AngularJS frontend. Worked on the dashboard. Smooth 60FPS drag and drop, even with multiple fingers on a touch screen.
 - Report visualization code with a mix of canvas and d3.
 - Admin Settings UI.
-
-### Contract - Project Manager at Booking Boss (Sydney, Australia)
-*Jan 2013 – Mar 2013*
-
-Booking Boss (https://www.bookingboss.com) is a start-up company that creates an online booking management system for tourism and adventure business operators.
-
-- Setup customer calls and gather requirements.
-- Agile sprints with Kanban boards in JIRA.
-- Validate acceptance criteria and prioritize action items for next sprint.
 
 ### Software Engineer at RocketBoots Pty Ltd (Sydney, Australia)
 *Mar 2009 – Dec 2013*
