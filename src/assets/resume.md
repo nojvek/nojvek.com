@@ -1,10 +1,12 @@
 # MANOJ VEKARIA (NOJ VEK)
 
 Email: hello@nojvek.com
+
 Github: https://github.com/nojvek
+
 LinkedIn: https://linkedin.com/in/nojvek
-Blog: https://nojvek.substack.com/
-Cell: +1 425 999 6216
+
+Blog: https://nojvek.substack.com
 
 ## ABOUT ME
 
