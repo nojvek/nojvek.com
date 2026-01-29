@@ -6,6 +6,9 @@ Github: [github.com/nojvek](https://github.com/nojvek)
 
 LinkedIn: [linkedin.com/in/nojvek](https://linkedin.com/in/nojvek)
 
+Schedule Chat: [calendly.com/nojvek](https://calendly.com/nojvek/chat)
+
+
 Blog: [nojvek.substack.com](https://nojvek.substack.com)
 
 ## ABOUT ME
