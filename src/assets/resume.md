@@ -136,7 +136,7 @@ RocketBoots (https://rocketboots.com.au) is a foot traffic video analytics consu
 
 ## EDUCATION
 
-### University of New South Wales, Australia
+### University of New South Wales (UNSW), Australia
 *July 2006 - Aug 2009, (Bsc Computer Science) Grade: Distinction*
 
 Notable Courses:
