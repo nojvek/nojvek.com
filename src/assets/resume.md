@@ -19,7 +19,7 @@ A reverent disciple of machine learning, quantitative finance, and supply-chain 
 ### Founding Lead Engineer + Staff Software Engineer at Recurrency - Remote (Seattle, Washington & Tampa, Florida)
 *Apr 2021 – Present*
 
-Recurrency (https://recurrency.com) is building ERP automation platform for distributors using machine learning and workflow automation.
+Recurrency ([recurrency.com](https://recurrency.com)) is building ERP automation platform for distributors using machine learning and workflow automation.
 
 **Business Growth:** 2nd product engineer. Scaled from 0 → 250+ enterprise customers, driving multi-million dollar ARR.
 
@@ -42,7 +42,7 @@ Recurrency (https://recurrency.com) is building ERP automation platform for dist
 ### Senior Software Engineer at Stripe - Hybrid (Seattle, Washington)
 *Nov 2020 – Mar 2021*
 
-Stripe (https://stripe.com) builds payment infrastructure for the internet. Frontend Infrastructure team.
+Stripe ([stripe.com](https://stripe.com)) builds payment infrastructure for the internet. Frontend Infrastructure team.
 
 **TypeScript Migration:** Developer productivity improves with type safety and a larger ecosystem. Led Flow → TypeScript migration across Stripe Dashboard, Platform & Sail Design system.
 
@@ -51,11 +51,11 @@ Stripe (https://stripe.com) builds payment infrastructure for the internet. Fron
 ### Senior Software Engineer at Mixpanel - Hybrid (Seattle, Washington)
 *Mar 2016 – Nov 2020*
 
-Mixpanel (https://mixpanel.com) is a petabyte-scale product analytics platform.
+Mixpanel ([mixpanel.com](https://mixpanel.com)) is a petabyte-scale product analytics platform.
 
 **UI Performance:** Customer retention correlates with speed. Achieved 10X improvement in page load times, directly increasing retention metrics. <1s P90, <100ms navigation and interaction speed.
 
-**Design System:** Consistent UX builds user trust. Built Mixpanel's Design System (https://design.mixpanel.com). Fewer core components, faster feature delivery, delightful micro-interactions.
+**Design System:** Consistent UX builds user trust. Built Mixpanel's Design System ([design.mixpanel.com](https://design.mixpanel.com)). Fewer core components, faster feature delivery, delightful micro-interactions.
 
 **Enterprise Features:** Large customers need control. Delivered admin settings, lexicon (data annotation), and query builder.
 
@@ -81,7 +81,7 @@ Microsoft Edge DevTools: browser developer tools for web developers.
 ### Software Engineer at Microsoft - PowerBI (Vancouver, Canada & Redmond, Washington)
 *Jun 2013 – Aug 2015*
 
-Power BI (https://powerbi.microsoft.com) is Microsoft's enterprise business analytics platform.
+Power BI ([powerbi.microsoft.com](https://powerbi.microsoft.com)) is Microsoft's enterprise business analytics platform.
 
 **Dashboard UX:** Business users expect fluid interactions. Built AngularJS dashboard with smooth 60FPS drag-and-drop, multi-touch support.
 
@@ -92,7 +92,7 @@ Power BI (https://powerbi.microsoft.com) is Microsoft's enterprise business anal
 ### Software Engineer at RocketBoots Pty Ltd (Sydney, Australia)
 *Mar 2009 – Dec 2013*
 
-RocketBoots (https://rocketboots.com.au) is a foot traffic video analytics consultancy. Employee #1, helped grow to 11 engineers.
+RocketBoots ([rocketboots.com.au](https://rocketboots.com.au)) is a foot traffic video analytics consultancy. Employee #1, helped grow to 11 engineers.
 
 **Computer Vision (Beehive):** Retailers need foot traffic insights. Implemented OpenCV-based vision on embedded SOC cameras for real-time people analytics.
 
