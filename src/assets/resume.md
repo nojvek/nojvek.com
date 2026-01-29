@@ -1,15 +1,16 @@
 # MANOJ VEKARIA (NOJ VEK)
 
-Email: hello@nojvek.com  
-Github: https://github.com/nojvek  
-LinkedIn: https://linkedin.com/in/nojvek  
-Blog: https://nojvek.substack.com/  
+Email: hello@nojvek.com
+Github: https://github.com/nojvek
+LinkedIn: https://linkedin.com/in/nojvek
+Blog: https://nojvek.substack.com/
 Cell: +1 425 999 6216
 
-## PERSONAL STATEMENT
+## ABOUT ME
 
-I believe any great product aims to maximize the economy of the user's time, cognition and effort to get their job done. 
-Getting it right requires multiple iterations, therefore the speed of iteration is a competive edge.
+I'm a full-stack product engineer with deep expertise in Frontend (TypeScript) and Backend/ML (Python).
+
+A reverent disciple of machine learning, quantitative finance, and supply-chain optimization.
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -18,75 +19,93 @@ Getting it right requires multiple iterations, therefore the speed of iteration 
 
 Recurrency (https://recurrency.com) is building ERP automation platform for distributors using machine learning and workflow automation.
 
-- First product engineer. Collaborated closely with the Founder and Product Manager to strategically scope projects and optimize timelines.
-- Architected and developed the frontend from the ground up, leveraging Webpack, TypeScript, and Esbuild, with seamless Netlify deployments.
-- Designed and implemented comprehensive E2E and Unit test frameworks, enabling scalable frontend and API services.
-- Spearheaded the establishment of a full-stack product team, successfully scaling to 20+ engineers proficient in both frontend and api services.
-- Instituted a robust technical documentation process, ensuring smooth and predictable planning and execution cycles.
-- Engineered end-to-end modules in app.recurrency.com namely: purchasing, planning, sales, admin and reporting.
-- Led a complex database migration from MongoDB to PostgreSQL, enhancing data management and performance.
-- Integrated Snowflake for advanced reporting capabilities and implemented Typesense for typo-tolerant search functionality.
-- Developed and executed an Extract, Load, Transform (ELT) strategy utilizing DBT and Airflow for efficient data transformations.
-- Optimized performance metrics, achieving p90 recurrency page navigation under 1 second and API calls under 500ms.
-- Instrumental in scaling the business from 0 to 150+ enterprise customers, driving significant annual recurring revenue growth.
-  
-### Senior Software Engineer at Stripe - Remote (Seattle, Washington)
+**Business Growth:** 2nd product engineer. Scaled from 0 → 250+ enterprise customers, driving multi-million dollar ARR.
+
+**Team & Process:** Grew team from 1 → 20+ engineers. Established tech-docs process for async alignment and focused execution.
+
+**Full-Stack Tech Lead:** Led team to deliver end-to-end modules (purchasing, planning, sales, reporting) + ML-based demand forecasting and recommendation engines.
+
+**Frontend (TypeScript/React):** User engagement correlates with speed and reliability. <1s p95 initial load, <100ms navigation and interaction. Active error/perf monitoring.
+
+**API (Node.js/AWS ECS):** Customer workflows need high-throughput REST-api. <50ms median latency, 1000+ concurrent requests, >99.99% uptime SLA, >99.99% non-50X response success rate.
+
+**Backend (Python/Postgres/MotherDuck):** Customer ERP data is huge and messy. 20TB+, 10B+ rows, tenant-sharded elastic columnstore database architecture using Motherduck. User/Tenant/Metadata transactional operations in Postgres. SOC II compliant. Co-led MongoDB/Snowflake → PostgreSQL/Motherduck migration with infrastructure lead.
+
+**Data/Observability:** Reliable ETL across 250+ customer datasets, 5+ ERP schemas. Airflow + DBT pipelines. DataDog, Sentry, Mixpanel, FullStory, AWS Logs, Slack Alerts.
+
+**CI/CD:** Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in <5m. PR → deploy in <10m. Avg 5 deploys per day.
+
+
+
+### Senior Software Engineer at Stripe - Hybrid (Seattle, Washington)
 *Nov 2020 – Mar 2021*
 
-Stripe (https://stripe.com) is building the payment infrastructure for the internet. I was on the Frontend Infrastructure team.
+Stripe (https://stripe.com) builds payment infrastructure for the internet. Frontend Infrastructure team.
 
-- Flow -> Typescript migration across Stripe Dashboard, Stripe Platform & Sail Design system.
-- Frontend devloop instrumentation to measure iteration from code change to code applied in the browser. 
-- Added backend caching middleware to Ruby server based on Rack. Stripe saves 1d of productivity every week due to perf improvements.
-- Strategy for devbox per code branch for faster iteration.
+**TypeScript Migration:** Developer productivity improves with type safety and a larger ecosystem. Led Flow → TypeScript migration across Stripe Dashboard, Platform & Sail Design system.
+
+**Dev Loop Iteration:** Faster iteration = happier engineers. Designed and implemented devbox-per-branch strategy for higher throughput iteration. Improved developer loop via caching middleware (Ruby/RoR). Instrumented devloop metrics in product-health dashboard.
 
 ### Senior Software Engineer at Mixpanel - Hybrid (Seattle, Washington)
 *Mar 2016 – Nov 2020*
 
-Mixpanel (https://mixpanel.com) is a petabyte-scale product analytics tool.
+Mixpanel (https://mixpanel.com) is a petabyte-scale product analytics platform.
 
-- UI Perf: Make navigation faster - 10X improvements in page load, this led to increase in customer retention.
-- Design System: Built Mixpanel's Design System https://design.mixpanel.com. We can build consistent user experiences and also decrease time to build new feature UIs. With fewer core UI components, #little-big-things that delight users can be implemented.
-- Settings: Worked on enterprise features such as admin settings, lexicon (data annotation) and query builder.
-- HMR: Improved front-end devloop under 5 seconds with custom webpack hot module reloading (HMR) plugins. HMR lets us apply code changes without page reload.
-- Refactor: Javascript to Typescript, Jade -> TSX, error tracking and general QOL (quality of life) improvements.
-- CI: Worked on continuous integration pipeline for frontend assets and webapp server. A staging environment is built per PR (pull request).
-- CD: Performance improvements via parallelisation and end-to-end smoke tests using puppeteer to ensure reliable deploys. Median deploy times are about ~30 minutes.
+**UI Performance:** Customer retention correlates with speed. Achieved 10X improvement in page load times, directly increasing retention metrics. <1s P90, <100ms navigation and interaction speed.
 
-### Software Engineer at Microsoft (Redmond, Washington)
+**Design System:** Consistent UX builds user trust. Built Mixpanel's Design System (https://design.mixpanel.com). Fewer core components, faster feature delivery, delightful micro-interactions.
+
+**Enterprise Features:** Large customers need control. Delivered admin settings, lexicon (data annotation), and query builder.
+
+**Dev Loop (HMR):** Developer iteration speed matters. Custom webpack HMR plugins reduced devloop to <5 seconds. Code changes apply without page reload.
+
+**Codebase Health:** Maintainability enables velocity. Led JavaScript → TypeScript, Jade → TSX migrations. Error/Perf tracking and alerting.
+
+**CI/CD:** Reliable deploys build confidence. Per-PR staging environments, parallelized pipelines, Puppeteer smoke tests. ~30 min median deploy time.
+
+### Software Engineer at Microsoft - Edge DevTools (Seattle, Washington)
 *Aug 2015 – Feb 2016*
 
-Microsoft Edge is the new lightweight browser by Microsoft. Worked on Edge Developer Tools.
+Microsoft Edge DevTools: browser developer tools for web developers.
 
-- Startup performance improvements.
-- Fixed various bugs and misc improvements in Dom Explorer, Console, Memory Profiler, CPU Profiler and Network tab.
-- Faster and more reliable CI pipeline with end to end tests.
-- Worked with Visual Studio Code team for Chrome Debugger plugin.
+**Startup Perf:** Developers open DevTools constantly. Improved startup performance for faster debugging workflows.
 
-### Software Engineer at Microsoft (Vancouver, Canada & Redmond, Washington)
+**DevTools Features:** Quality tools = productive developers. Bug fixes and improvements across DOM Explorer, Console, Memory Profiler, CPU Profiler, Network tab.
+
+**CI/CD:** Reliable releases build trust. Faster, more reliable pipeline with E2E tests.
+
+**VSCode Integration:** Cross-tool debugging improves DX. Collaborated with VSCode team on Chrome Debugger plugin.
+
+### Software Engineer at Microsoft - PowerBI (Vancouver, Canada & Redmond, Washington)
 *Jun 2013 – Aug 2015*
 
-Power BI (https://powerbi.microsoft.com) is Microsoft's Business Intelligence offering.
+Power BI (https://powerbi.microsoft.com) is Microsoft's enterprise business analytics platform.
 
-- AngularJS frontend. Worked on the dashboard. Smooth 60FPS drag and drop, even with multiple fingers on a touch screen.
-- Report visualization code with a mix of canvas and d3.
-- Admin Settings UI.
+**Dashboard UX:** Business users expect fluid interactions. Built AngularJS dashboard with smooth 60FPS drag-and-drop, multi-touch support.
+
+**Visualizations:** Data insight requires clear presentation. Report rendering with Canvas and D3.js.
+
+**Enterprise Features:** Large orgs need governance. Built Admin Settings UI.
 
 ### Software Engineer at RocketBoots Pty Ltd (Sydney, Australia)
 *Mar 2009 – Dec 2013*
 
-RocketBoots (https://rocketboots.com.au) is a software consultancy. Joined as employee #1 and helped grow to 11 engineers by the time I left.
+RocketBoots (https://rocketboots.com.au) is a foot traffic video analytics consultancy. Employee #1, helped grow to 11 engineers.
 
-- Worked on "Beehive" project. Implemented computer vision using OpenCV on embedded SOC (System on a Chip) on cameras.
-- Built a machine learning system (genetic algorithm) to implement batched learning on an on-demand ~500 VM cluster on AWS. We could go from 70% accuracy to 95% accuracy in a couple of hours. This was before Convolutional Nets and GPUs were prominent for computer vision.
-- Lead developer for the software of a military grade, surveillance robot "HERMES Light". https://www.youtube.com/watch?v=BEba5iVmlEQ
+**Computer Vision (Beehive):** Retailers need foot traffic insights. Implemented OpenCV-based vision on embedded SOC cameras for real-time people analytics.
+
+**ML Training Pipeline:** Accuracy drives customer value. Built genetic algorithm ML system on ~500 VM AWS cluster. Improved accuracy from 70% → 95% in hours. (Pre-CNN/GPU era)
+
+**Robotics (HERMES Light):** Defense clients need autonomous surveillance. Lead developer for military-grade surveillance robot software. https://www.youtube.com/watch?v=BEba5iVmlEQ
 
 ### Academic Tutor (University of New South Wales - UNSW, Australia)
 *Mar 2007 - Jan 2009*
 
-- Awarded highest achieving student in "Computing for Engineers" course.
-- Tutored first year students while I was in my 3rd year. Introduced Engineering students to programming, logic and problem solving skills.
-- Built html/css/js/Flash sites as side gigs
+**Teaching:** Students learn best from peers. Tutored 1st-year engineering students (while in 3rd year) on programming, logic, and problem-solving.
+
+**Recognition:** Awarded highest achieving student in "Computing for Engineers" course.
+
+**Freelance:** Built HTML/CSS/JS/Flash sites as side projects.
 
 ## OPEN SOURCE
 
