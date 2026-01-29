@@ -57,6 +57,15 @@ module.exports = {
       margin: 0;
     }
   `,
+  // Required for GitHub Actions where sandboxing is restricted
+  launch_options: {
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu'
+    ]
+  },
   pdf_options: {
     format: 'Letter',
     margin: {
