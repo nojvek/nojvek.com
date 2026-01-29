@@ -103,12 +103,7 @@ RocketBoots ([rocketboots.com.au](https://rocketboots.com.au)) is a foot traffic
 
 **Robotics (HERMES Light):** Defense clients need autonomous surveillance. Lead developer for military-grade surveillance robot software. https://www.youtube.com/watch?v=BEba5iVmlEQ
 
-### Academic Tutor (University of New South Wales - UNSW, Australia)
-*Mar 2007 - Jan 2009*
 
-**Teaching:** Students learn best from peers. Tutored 1st-year engineering students (while in 3rd year) on programming, logic, and problem-solving.
-
-**Recognition:** Awarded highest achieving student in "Computing for Engineers" course.
 
 **Freelance:** Built HTML/CSS/JS/Flash sites as side projects.
 
@@ -132,6 +127,7 @@ RocketBoots ([rocketboots.com.au](https://rocketboots.com.au)) is a foot traffic
 - [Chrome DevTools protocol](https://github.com/ChromeDevTools/devtools-protocol)
   - Auto generated type definitions from protocol.json. Consumed by VSCode, puppeteer, lighthouse and other tools.
 - [fuzzbunny](https://github.com/nojvek/fuzzbunny) - Fast fuzzy matching library written in Typescript.
+- [urltron](https://github.com/recurrency/urltron) - persist json state in url for frontend SPA applications as k=v query params.
 - [panel](https://github.com/mixpanel/panel) - Web components with virtual dom
 - [boomadmin](https://github.com/nojvek/boomadmin) - MySQL db explorer with SQL builder
 - [RasberryPISelfDrivingCar](https://github.com/nojvek/RasberryPISelfDrivingCar) - fun experiment with openCV on a raspberry pi powered car.
