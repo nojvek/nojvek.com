@@ -11,15 +11,17 @@
   "scripts": {
     "build-pug": "yarn pug --pretty --out public src",
     "build-styl": "yarn stylus --inline --out public src",
+    "build-resume-pdf": "md-to-pdf src/assets/resume.md --config-file src/md_to_pdf.config.js && mv src/assets/resume.pdf public/resume.pdf",
     "clean": "rm -rf public",
     "copy-assets": "mkdir public && cp src/assets/* public",
-    "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl",
+    "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl && yarn build-resume-pdf",
     "server": "(cd public && yarn http-server -s -c0 -p 8081)",
     "start": "yarn build && yarn server"
   },
   "dependencies": {},
   "devDependencies": {
     "http-server": "^0.11.1",
+    "md-to-pdf": "^5.2.4",
     "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.54.5"
   }

@@ -2,11 +2,11 @@
 
 Email: hello@nojvek.com
 
-Github: https://github.com/nojvek
+Github: [github.com/nojvek](https://github.com/nojvek)
 
-LinkedIn: https://linkedin.com/in/nojvek
+LinkedIn: [linkedin.com/in/nojvek](https://linkedin.com/in/nojvek)
 
-Blog: https://nojvek.substack.com
+Blog: [nojvek.substack.com](https://nojvek.substack.com)
 
 ## ABOUT ME
 
@@ -35,7 +35,7 @@ Recurrency (https://recurrency.com) is building ERP automation platform for dist
 
 **Data/Observability:** Reliable ETL across 250+ customer datasets, 5+ ERP schemas. Airflow + DBT pipelines. DataDog, Sentry, Mixpanel, FullStory, AWS Logs, Slack Alerts.
 
-**CI/CD:** Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in <5m. PR → deploy in <10m. Avg 5 deploys per day.
+**CI/CD:** Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in <5m. PR → deploy in <10m. 2-10 deploys per day.
 
 
 
@@ -132,7 +132,7 @@ RocketBoots (https://rocketboots.com.au) is a foot traffic video analytics consu
 - [panel](https://github.com/mixpanel/panel) - Web components with virtual dom
 - [boomadmin](https://github.com/nojvek/boomadmin) - MySQL db explorer with SQL builder
 - [RasberryPISelfDrivingCar](https://github.com/nojvek/RasberryPISelfDrivingCar) - fun experiment with openCV on a raspberry pi powered car.
-- Misc other contributions to webpack, webpack-dev-server, simd_nodejs, puppeteer, preact, ChakraCore.
+- Misc other contributions to [webpack](https://github.com/webpack/webpack), [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [simd_nodejs](https://github.com/tc39/ecmascript_simd), [puppeteer](https://github.com/puppeteer/puppeteer), [preact](https://github.com/preactjs/preact), [ChakraCore](https://github.com/microsoft/ChakraCore).
 
 ## EDUCATION
 
