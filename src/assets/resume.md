@@ -20,7 +20,7 @@ A reverent disciple of machine learning, quantitative finance, and supply-chain 
 ## PROFESSIONAL EXPERIENCE
 
 ### Founding Lead Engineer + Staff Software Engineer at Recurrency - Remote (Seattle, Washington & Tampa, Florida)
-*Apr 2021 – Present*
+*Apr 2021 – Feb 2026*
 
 Recurrency ([recurrency.com](https://recurrency.com)) is building ERP automation platform for distributors using machine learning and workflow automation.
 
