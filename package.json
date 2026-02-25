@@ -12,9 +12,10 @@
     "build-pug": "yarn pug --pretty --out public src",
     "build-styl": "yarn stylus --inline --out public src",
     "build-resume-pdf": "md-to-pdf src/assets/resume.md --config-file src/md_to_pdf.config.js && mv src/assets/resume.pdf public/resume.pdf",
+    "build-resume-html": "md-to-pdf src/assets/resume.md --config-file src/md_to_pdf.config.js --as-html && mv src/assets/resume.html public/resume.html",
     "clean": "rm -rf public",
     "copy-assets": "mkdir public && cp src/assets/* public",
-    "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl && yarn build-resume-pdf",
+    "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl && yarn build-resume-pdf && yarn build-resume-html",
     "server": "(cd public && yarn http-server -s -c0 -p 8081)",
     "start": "yarn build && yarn server",
     "format": "prettier --write \"**/*.{js,json,md}\""
