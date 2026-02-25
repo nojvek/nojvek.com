@@ -1,0 +1,455 @@
+<!DOCTYPE html><html><head><title></title><meta charset="utf-8"><style>* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	line-height: 1.6;
+	font-size: 0.6875em; /* 11 pt */
+	color: #111;
+	margin: 0;
+}
+
+body > :first-child {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+body > :last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0.5em 0 0.25em;
+}
+
+h5,
+h6 {
+	padding: 0;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+h6 {
+	font-size: 0.875em;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0.25em 0 1em;
+}
+
+blockquote {
+	margin: 0.5em 0 1em;
+	padding-left: 0.5em;
+	padding-right: 1em;
+	border-left: 4px solid gainsboro;
+	font-style: italic;
+}
+
+ul,
+ol {
+	margin: 0;
+	margin-left: 1em;
+	padding: 0 1.5em 0.5em;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code,
+p code,
+li code,
+pre code {
+	background-color: #f8f8f8;
+	padding: 0.1em 0.375em;
+	border: 1px solid #f8f8f8;
+	border-radius: 0.25em;
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+pre code {
+	display: block;
+	padding: 0.5em;
+}
+
+.page-break {
+	page-break-after: always;
+}
+
+img {
+	max-width: 100%;
+	margin: 1em 0;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	display: block;
+	margin: 0 0 1em;
+	width: 100%;
+	overflow: auto;
+}
+
+table th,
+table td {
+	padding: 0.5em 1em;
+	border: 1px solid gainsboro;
+}
+
+table th {
+	font-weight: 600;
+}
+
+table tr {
+	background-color: white;
+	border-top: 1px solid gainsboro;
+}
+
+table tr:nth-child(2n) {
+	background-color: whitesmoke;
+}
+/*# sourceURL=/home/runner/work/nojvek.com/nojvek.com/node_modules/md-to-pdf/markdown.css*/</style><style>pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em
+}
+code.hljs {
+  padding: 3px 5px
+}
+/*!
+  Theme: GitHub
+  Description: Light theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Outdated base version: https://github.com/primer/github-syntax-light
+  Current colors taken from GitHub's CSS
+*/
+.hljs {
+  color: #24292e;
+  background: #ffffff
+}
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+  /* prettylights-syntax-keyword */
+  color: #d73a49
+}
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+  /* prettylights-syntax-entity */
+  color: #6f42c1
+}
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id {
+  /* prettylights-syntax-constant */
+  color: #005cc5
+}
+.hljs-regexp,
+.hljs-string,
+.hljs-meta .hljs-string {
+  /* prettylights-syntax-string */
+  color: #032f62
+}
+.hljs-built_in,
+.hljs-symbol {
+  /* prettylights-syntax-variable */
+  color: #e36209
+}
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
+  /* prettylights-syntax-comment */
+  color: #6a737d
+}
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
+  /* prettylights-syntax-entity-tag */
+  color: #22863a
+}
+.hljs-subst {
+  /* prettylights-syntax-storage-modifier-import */
+  color: #24292e
+}
+.hljs-section {
+  /* prettylights-syntax-markup-heading */
+  color: #005cc5;
+  font-weight: bold
+}
+.hljs-bullet {
+  /* prettylights-syntax-markup-list */
+  color: #735c0f
+}
+.hljs-emphasis {
+  /* prettylights-syntax-markup-italic */
+  color: #24292e;
+  font-style: italic
+}
+.hljs-strong {
+  /* prettylights-syntax-markup-bold */
+  color: #24292e;
+  font-weight: bold
+}
+.hljs-addition {
+  /* prettylights-syntax-markup-inserted */
+  color: #22863a;
+  background-color: #f0fff4
+}
+.hljs-deletion {
+  /* prettylights-syntax-markup-deleted */
+  color: #b31d28;
+  background-color: #ffeef0
+}
+.hljs-char.escape_,
+.hljs-link,
+.hljs-params,
+.hljs-property,
+.hljs-punctuation,
+.hljs-tag {
+  /* purposely ignored */
+  
+}/*# sourceURL=/home/runner/work/nojvek.com/nojvek.com/node_modules/highlight.js/styles/github.css*/</style><style>
+    body {
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.4;
+      color: #222;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.4in 0.5in;
+    }
+    h1 {
+      font-size: 22pt;
+      font-weight: 600;
+      margin: 0 0 8pt 0;
+      color: #111;
+    }
+    h2 {
+      font-size: 12pt;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5pt;
+      border-bottom: 1.5px solid #333;
+      padding-bottom: 3pt;
+      margin: 16pt 0 8pt 0;
+      color: #111;
+    }
+    h3 {
+      font-size: 11pt;
+      font-weight: 600;
+      margin: 10pt 0 2pt 0;
+      color: #111;
+    }
+    /* prevent section breaks */
+    .section {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    p {
+      margin: 4pt 0;
+    }
+    em {
+      font-style: italic;
+      color: #555;
+    }
+    strong {
+      font-weight: 600;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    ul {
+      margin: 4pt 0;
+      padding-left: 16pt;
+    }
+    li {
+      margin: 2pt 0;
+    }
+    /* Reduce spacing between contact items */
+    h1 + p, p + p:has(a) {
+      margin: 0;
+    }
+  </style></head>
+	<body class="">
+		<div class="section">
+
+<h1 id="manoj-vekaria-noj-vek">MANOJ VEKARIA (NOJ VEK)</h1>
+<p>Email: <a href="mailto:hello@nojvek.com">hello@nojvek.com</a></p>
+<p>Github: <a href="https://github.com/nojvek">github.com/nojvek</a></p>
+<p>LinkedIn: <a href="https://linkedin.com/in/nojvek">linkedin.com/in/nojvek</a></p>
+<p>Schedule Chat: <a href="https://calendly.com/nojvek/chat">calendly.com/nojvek</a></p>
+<p>Blog: <a href="https://nojvek.substack.com">nojvek.substack.com</a></p>
+<h2 id="about-me">ABOUT ME</h2>
+<p>I'm a full-stack product engineer with deep expertise in Frontend (TypeScript) and Backend/ML (Python).</p>
+<p>A reverent disciple of machine learning, quantitative finance, and supply-chain optimization.</p>
+</div>
+
+<div class="section">
+
+<h2 id="professional-experience">PROFESSIONAL EXPERIENCE</h2>
+<h3 id="founding-lead-engineer--staff-software-engineer-at-recurrency---remote-seattle-washington--tampa-florida">Founding Lead Engineer + Staff Software Engineer at Recurrency - Remote (Seattle, Washington &amp; Tampa, Florida)</h3>
+<p><em>Apr 2021 – Feb 2026</em></p>
+<p>Recurrency (<a href="https://recurrency.com">recurrency.com</a>) is building ERP automation platform for distributors using machine learning and workflow automation.</p>
+<p><strong>Business Growth:</strong> 2nd product engineer. Scaled from 0 → 250+ enterprise customers, driving multi-million dollar ARR.</p>
+<p><strong>Team &amp; Process:</strong> Grew team from 1 → 20+ engineers. Established tech-docs process for async alignment and focused execution.</p>
+<p><strong>Full-Stack Tech Lead:</strong> Led team to deliver end-to-end modules (purchasing, planning, sales, reporting) + ML-based demand forecasting and recommendation engines.</p>
+<p><strong>Frontend (TypeScript/React):</strong> User engagement correlates with speed and reliability. &lt;1s p95 initial load, &lt;100ms navigation and interaction. Active error/perf monitoring.</p>
+<p><strong>API (Node.js/AWS ECS):</strong> Customer workflows need high-throughput REST-api. &lt;50ms median latency, 1000+ concurrent requests, &gt;99.99% uptime SLA, &gt;99.99% non-50X response success rate.</p>
+<p><strong>Backend (Python/Postgres/MotherDuck):</strong> Customer ERP data is huge and messy. 20TB+, 10B+ rows, tenant-sharded elastic columnstore database architecture using Motherduck. User/Tenant/Metadata transactional operations in Postgres. SOC II compliant. Co-led MongoDB/Snowflake → PostgreSQL/Motherduck migration with infrastructure lead.</p>
+<p><strong>Data/Observability:</strong> Reliable ETL across 250+ customer datasets, 5+ ERP schemas. Airflow + DBT pipelines. DataDog, Sentry, Mixpanel, FullStory, AWS Logs, Slack Alerts.</p>
+<p><strong>CI/CD:</strong> Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in &lt;5m. PR → deploy in &lt;10m. 2-10 deploys per day.</p>
+</div>
+
+<div class="section">
+
+<h3 id="senior-software-engineer-at-stripe---hybrid-seattle-washington">Senior Software Engineer at Stripe - Hybrid (Seattle, Washington)</h3>
+<p><em>Nov 2020 – Mar 2021</em></p>
+<p>Stripe (<a href="https://stripe.com">stripe.com</a>) builds payment infrastructure for the internet. Frontend Infrastructure team.</p>
+<p><strong>TypeScript Migration:</strong> Developer productivity improves with type safety and a larger ecosystem. Led Flow → TypeScript migration across Stripe Dashboard, Platform &amp; Sail Design system.</p>
+<p><strong>Dev Loop Iteration:</strong> Faster iteration = happier engineers. Designed and implemented devbox-per-branch strategy for higher throughput iteration. Improved developer loop via caching middleware (Ruby/RoR). Instrumented devloop metrics in product-health dashboard.</p>
+</div>
+
+<div class="section">
+### Senior Software Engineer at Mixpanel - Hybrid (Seattle, Washington)
+*Mar 2016 – Nov 2020*
+
+<p>Mixpanel (<a href="https://mixpanel.com">mixpanel.com</a>) is a petabyte-scale product analytics platform.</p>
+<p><strong>UI Performance:</strong> Customer retention correlates with speed. Achieved 10X improvement in page load times, directly increasing retention metrics. &lt;1s P90, &lt;100ms navigation and interaction speed.</p>
+<p><strong>Design System:</strong> Consistent UX builds user trust. Built Mixpanel's Design System (<a href="https://design.mixpanel.com">design.mixpanel.com</a>). Fewer core components, faster feature delivery, delightful micro-interactions.</p>
+<p><strong>Enterprise Features:</strong> Large customers need control. Delivered admin settings, lexicon (data annotation), and query builder.</p>
+<p><strong>Dev Loop (HMR):</strong> Developer iteration speed matters. Custom webpack HMR plugins reduced devloop to &lt;5 seconds. Code changes apply without page reload.</p>
+<p><strong>Codebase Health:</strong> Maintainability enables velocity. Led JavaScript → TypeScript, Jade → TSX migrations. Error/Perf tracking and alerting.</p>
+<p><strong>CI/CD:</strong> Reliable deploys build confidence. Per-PR staging environments, parallelized pipelines, Puppeteer smoke tests. ~30 min median deploy time.</p>
+</div>
+
+<div class="section">
+
+<h3 id="software-engineer-at-microsoft---edge-devtools-seattle-washington">Software Engineer at Microsoft - Edge DevTools (Seattle, Washington)</h3>
+<p><em>Aug 2015 – Feb 2016</em></p>
+<p>Microsoft Edge DevTools: browser developer tools for web developers.</p>
+<p><strong>Startup Perf:</strong> Developers open DevTools constantly. Improved startup performance for faster debugging workflows.</p>
+<p><strong>DevTools Features:</strong> Quality tools = productive developers. Bug fixes and improvements across DOM Explorer, Console, Memory Profiler, CPU Profiler, Network tab.</p>
+<p><strong>CI/CD:</strong> Reliable releases build trust. Faster, more reliable pipeline with E2E tests.</p>
+<p><strong>VSCode Integration:</strong> Cross-tool debugging improves DX. Collaborated with VSCode team on Chrome Debugger plugin.</p>
+</div>
+
+<div class="section">
+
+<h3 id="software-engineer-at-microsoft---powerbi-vancouver-canada--redmond-washington">Software Engineer at Microsoft - PowerBI (Vancouver, Canada &amp; Redmond, Washington)</h3>
+<p><em>Jun 2013 – Aug 2015</em></p>
+<p>Power BI (<a href="https://powerbi.microsoft.com">powerbi.microsoft.com</a>) is Microsoft's enterprise business analytics platform.</p>
+<p><strong>Dashboard UX:</strong> Business users expect fluid interactions. Built AngularJS dashboard with smooth 60FPS drag-and-drop, multi-touch support.</p>
+<p><strong>Visualizations:</strong> Data insight requires clear presentation. Report rendering with Canvas and D3.js.</p>
+<p><strong>Enterprise Features:</strong> Large orgs need governance. Built Admin Settings UI.</p>
+</div>
+
+<div class="section">
+
+<h3 id="software-engineer-at-rocketboots-pty-ltd-sydney-australia">Software Engineer at RocketBoots Pty Ltd (Sydney, Australia)</h3>
+<p><em>Mar 2009 – Dec 2013</em></p>
+<p>RocketBoots (<a href="https://rocketboots.com.au">rocketboots.com.au</a>) is a foot traffic video analytics consultancy. Employee #1, helped grow to 11 engineers.</p>
+<p><strong>Computer Vision (Beehive):</strong> Retailers need foot traffic insights. Implemented OpenCV-based vision on embedded SOC cameras for real-time people analytics.</p>
+<p><strong>ML Training Pipeline:</strong> Accuracy drives customer value. Built genetic algorithm ML system on ~500 VM AWS cluster. Improved accuracy from 70% → 95% in hours. (Pre-CNN/GPU era)</p>
+<p><strong>Robotics (HERMES Light):</strong> Defense clients need autonomous surveillance. Lead developer for military-grade surveillance robot software. <a href="https://www.youtube.com/watch?v=BEba5iVmlEQ">https://www.youtube.com/watch?v=BEba5iVmlEQ</a></p>
+</div>
+
+<div class="section">
+
+<h2 id="open-source">OPEN SOURCE</h2>
+<ul>
+<li>Nodejs PRs<ul>
+<li><a href="https://github.com/nodejs/node/pull/6792">Documentation for --inspect, --debug-brk, --debug</a></li>
+<li><a href="https://github.com/nodejs/node/pull/7351">Fix bug where --inspect doesn't notify profilers to disconnect</a></li>
+</ul>
+</li>
+<li>VSCode PRs<ul>
+<li><a href="https://github.com/microsoft/vscode/pull/23820">Inline values when debugging via decorators</a></li>
+<li><a href="https://github.com/microsoft/vscode/pull/71630">Terminal links based on CWD</a></li>
+<li><a href="https://github.com/microsoft/vscode/pull/71495">Type to focus</a></li>
+</ul>
+</li>
+<li>Typescript PRs<ul>
+<li><a href="https://github.com/microsoft/TypeScript/pull/38720">jsxFragmentFactory compiler option</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/pull/7546">allowJS + declarations compiler configuration</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/pull/35282">Pretty jsx emit</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/pull/36346">Fix .d.ts declarations</a></li>
+</ul>
+</li>
+<li>Chrome DevTools<ul>
+<li><a href="https://chromium-review.googlesource.com/c/chromium/src/+/1991207">Tooltips for Request Timing Metrics</a></li>
+<li><a href="https://chromium-review.googlesource.com/c/chromium/src/+/2110085">Mouse handling to change units with keyboard modifiers</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/ChromeDevTools/devtools-protocol">Chrome DevTools protocol</a><ul>
+<li>Auto generated type definitions from protocol.json. Consumed by VSCode, puppeteer, lighthouse and other tools.</li>
+</ul>
+</li>
+<li><a href="https://github.com/nojvek/fuzzbunny">fuzzbunny</a> - Fast fuzzy matching library written in Typescript.</li>
+<li><a href="https://github.com/recurrency/urltron">urltron</a> - persist json state in url for frontend SPA applications as k=v query params.</li>
+<li><a href="https://github.com/mixpanel/panel">panel</a> - Web components with virtual dom</li>
+<li><a href="https://github.com/nojvek/boomadmin">boomadmin</a> - MySQL db explorer with SQL builder</li>
+<li><a href="https://github.com/nojvek/RasberryPISelfDrivingCar">RasberryPISelfDrivingCar</a> - fun experiment with openCV on a raspberry pi powered car.</li>
+<li>Misc other contributions to <a href="https://github.com/webpack/webpack">webpack</a>, <a href="https://github.com/webpack/webpack-dev-server">webpack-dev-server</a>, <a href="https://github.com/tc39/ecmascript_simd">simd_nodejs</a>, <a href="https://github.com/puppeteer/puppeteer">puppeteer</a>, <a href="https://github.com/preactjs/preact">preact</a>, <a href="https://github.com/microsoft/ChakraCore">ChakraCore</a>.</li></ul></div>
+
+<div class="section">
+
+<h2 id="education">EDUCATION</h2>
+<h3 id="university-of-new-south-wales-unsw-australia">University of New South Wales (UNSW), Australia</h3>
+<p><em>July 2006 - Aug 2009, (Bsc Computer Science) Grade: Distinction</em></p>
+<p>Notable Courses:</p>
+<ul>
+<li>Discrete Mathematics &amp; Statistics</li>
+<li>Data Structures &amp; Algorithms</li>
+<li>Ethics &amp; Law for Computer Science</li>
+<li>Microprocessors &amp; Embedded Systems</li>
+<li>Database Systems &amp; Implementation</li>
+<li>Artificial Intelligence &amp; Search</li>
+<li>Advanced Computer Graphics</li>
+<li>Programming Languages &amp; Compilers</li>
+<li>Computer Vision</li>
+<li>Web Applications</li></ul></div>
+
+
+	
+
+</body></html>
