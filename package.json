@@ -16,12 +16,14 @@
     "copy-assets": "mkdir public && cp src/assets/* public",
     "build": "yarn clean && yarn copy-assets && yarn build-pug && yarn build-styl && yarn build-resume-pdf",
     "server": "(cd public && yarn http-server -s -c0 -p 8081)",
-    "start": "yarn build && yarn server"
+    "start": "yarn build && yarn server",
+    "format": "prettier --write \"**/*.{js,json,md}\""
   },
   "dependencies": {},
   "devDependencies": {
     "http-server": "^0.11.1",
     "md-to-pdf": "^5.2.4",
+    "prettier": "^3.2.5",
     "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.54.5"
   }

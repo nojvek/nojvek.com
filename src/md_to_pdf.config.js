@@ -64,12 +64,7 @@ module.exports = {
   `,
   // Required for GitHub Actions where sandboxing is restricted
   launch_options: {
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu'
-    ]
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu'],
   },
   pdf_options: {
     format: 'Letter',
@@ -77,8 +72,8 @@ module.exports = {
       top: '0.4in',
       bottom: '0.4in',
       left: '0.5in',
-      right: '0.5in'
+      right: '0.5in',
     },
-    printBackground: true
-  }
+    printBackground: true,
+  },
 };
