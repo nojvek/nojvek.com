@@ -1,3 +1,5 @@
+<div class="section">
+
 # MANOJ VEKARIA (NOJ VEK)
 
 Email: hello@nojvek.com
@@ -8,7 +10,6 @@ LinkedIn: [linkedin.com/in/nojvek](https://linkedin.com/in/nojvek)
 
 Schedule Chat: [calendly.com/nojvek](https://calendly.com/nojvek/chat)
 
-
 Blog: [nojvek.substack.com](https://nojvek.substack.com)
 
 ## ABOUT ME
@@ -16,6 +17,9 @@ Blog: [nojvek.substack.com](https://nojvek.substack.com)
 I'm a full-stack product engineer with deep expertise in Frontend (TypeScript) and Backend/ML (Python).
 
 A reverent disciple of machine learning, quantitative finance, and supply-chain optimization.
+</div>
+
+<div class="section">
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -39,8 +43,9 @@ Recurrency ([recurrency.com](https://recurrency.com)) is building ERP automation
 **Data/Observability:** Reliable ETL across 250+ customer datasets, 5+ ERP schemas. Airflow + DBT pipelines. DataDog, Sentry, Mixpanel, FullStory, AWS Logs, Slack Alerts.
 
 **CI/CD:** Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in <5m. PR → deploy in <10m. 2-10 deploys per day.
+</div>
 
-
+<div class="section">
 
 ### Senior Software Engineer at Stripe - Hybrid (Seattle, Washington)
 *Nov 2020 – Mar 2021*
@@ -50,7 +55,9 @@ Stripe ([stripe.com](https://stripe.com)) builds payment infrastructure for the 
 **TypeScript Migration:** Developer productivity improves with type safety and a larger ecosystem. Led Flow → TypeScript migration across Stripe Dashboard, Platform & Sail Design system.
 
 **Dev Loop Iteration:** Faster iteration = happier engineers. Designed and implemented devbox-per-branch strategy for higher throughput iteration. Improved developer loop via caching middleware (Ruby/RoR). Instrumented devloop metrics in product-health dashboard.
+</div>
 
+<div class="section">
 ### Senior Software Engineer at Mixpanel - Hybrid (Seattle, Washington)
 *Mar 2016 – Nov 2020*
 
@@ -67,6 +74,9 @@ Mixpanel ([mixpanel.com](https://mixpanel.com)) is a petabyte-scale product anal
 **Codebase Health:** Maintainability enables velocity. Led JavaScript → TypeScript, Jade → TSX migrations. Error/Perf tracking and alerting.
 
 **CI/CD:** Reliable deploys build confidence. Per-PR staging environments, parallelized pipelines, Puppeteer smoke tests. ~30 min median deploy time.
+</div>
+
+<div class="section">
 
 ### Software Engineer at Microsoft - Edge DevTools (Seattle, Washington)
 *Aug 2015 – Feb 2016*
@@ -80,6 +90,9 @@ Microsoft Edge DevTools: browser developer tools for web developers.
 **CI/CD:** Reliable releases build trust. Faster, more reliable pipeline with E2E tests.
 
 **VSCode Integration:** Cross-tool debugging improves DX. Collaborated with VSCode team on Chrome Debugger plugin.
+</div>
+
+<div class="section">
 
 ### Software Engineer at Microsoft - PowerBI (Vancouver, Canada & Redmond, Washington)
 *Jun 2013 – Aug 2015*
@@ -91,6 +104,9 @@ Power BI ([powerbi.microsoft.com](https://powerbi.microsoft.com)) is Microsoft's
 **Visualizations:** Data insight requires clear presentation. Report rendering with Canvas and D3.js.
 
 **Enterprise Features:** Large orgs need governance. Built Admin Settings UI.
+</div>
+
+<div class="section">
 
 ### Software Engineer at RocketBoots Pty Ltd (Sydney, Australia)
 *Mar 2009 – Dec 2013*
@@ -102,10 +118,9 @@ RocketBoots ([rocketboots.com.au](https://rocketboots.com.au)) is a foot traffic
 **ML Training Pipeline:** Accuracy drives customer value. Built genetic algorithm ML system on ~500 VM AWS cluster. Improved accuracy from 70% → 95% in hours. (Pre-CNN/GPU era)
 
 **Robotics (HERMES Light):** Defense clients need autonomous surveillance. Lead developer for military-grade surveillance robot software. https://www.youtube.com/watch?v=BEba5iVmlEQ
+</div>
 
-
-
-**Freelance:** Built HTML/CSS/JS/Flash sites as side projects.
+<div class="section">
 
 ## OPEN SOURCE
 
@@ -132,6 +147,10 @@ RocketBoots ([rocketboots.com.au](https://rocketboots.com.au)) is a foot traffic
 - [boomadmin](https://github.com/nojvek/boomadmin) - MySQL db explorer with SQL builder
 - [RasberryPISelfDrivingCar](https://github.com/nojvek/RasberryPISelfDrivingCar) - fun experiment with openCV on a raspberry pi powered car.
 - Misc other contributions to [webpack](https://github.com/webpack/webpack), [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [simd_nodejs](https://github.com/tc39/ecmascript_simd), [puppeteer](https://github.com/puppeteer/puppeteer), [preact](https://github.com/preactjs/preact), [ChakraCore](https://github.com/microsoft/ChakraCore).
+</div>
+
+
+<div class="section">
 
 ## EDUCATION
 
@@ -149,3 +168,4 @@ Notable Courses:
 - Programming Languages & Compilers
 - Computer Vision
 - Web Applications
+</div>

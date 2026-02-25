@@ -31,6 +31,11 @@ module.exports = {
       margin: 10pt 0 2pt 0;
       color: #111;
     }
+    /* prevent section breaks */
+    .section {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
     p {
       margin: 4pt 0;
     }
