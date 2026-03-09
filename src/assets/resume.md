@@ -30,21 +30,21 @@ _Apr 2021 – Feb 2026_
 
 Recurrency ([recurrency.com](https://recurrency.com)) is building ERP automation platform for distributors using machine learning and workflow automation.
 
-**Business Growth:** 2nd product engineer. Scaled from 0 → 250+ enterprise customers, driving multi-million dollar ARR.
+- Business Growth - 2nd product engineer. Scaled from 0 → 250+ enterprise customers, driving multi-million dollar ARR.
 
-**Team & Process:** Grew team from 1 → 20+ engineers. Established tech-docs process for async alignment and focused execution.
+- Team & Process - Grew team from 1 → 20+ engineers. Established tech-docs process for async alignment and focused execution.
 
-**Full-Stack Tech Lead:** Led team to deliver end-to-end modules (purchasing, planning, sales, reporting) + ML-based demand forecasting and recommendation engines.
+- Full-Stack Tech Lead - Led team to deliver end-to-end modules (purchasing, planning, sales, reporting) + ML-based demand forecasting and recommendation engines.
 
-**Frontend (TypeScript/React):** User engagement correlates with speed and reliability. <1s p95 initial load, <100ms navigation and interaction. Active error/perf monitoring.
+- Frontend (TypeScript/React) - User engagement correlates with speed and reliability. <1s p95 initial load, <100ms navigation and interaction. Active error/perf monitoring.
 
-**API (Node.js/AWS ECS):** Customer workflows need high-throughput REST-api. <50ms median latency, 1000+ concurrent requests, >99.99% uptime SLA, >99.99% non-50X response success rate.
+- API (Node.js/AWS ECS) - Customer workflows need high-throughput REST-api. <50ms median latency, 1000+ concurrent requests, >99.99% uptime SLA, >99.99% non-50X response success rate.
 
-**Backend (Python/Postgres/MotherDuck):** Customer ERP data is huge and messy. 20TB+, 10B+ rows, tenant-sharded elastic columnstore database architecture using Motherduck. User/Tenant/Metadata transactional operations in Postgres. SOC II compliant. Co-led MongoDB/Snowflake → PostgreSQL/Motherduck migration with infrastructure lead.
+- Backend (Python/Postgres/MotherDuck) - Customer ERP data is huge and messy. 20TB+, 10B+ rows, tenant-sharded elastic columnstore database architecture using Motherduck. User/Tenant/Metadata transactional operations in Postgres. SOC II compliant. Co-led MongoDB/Snowflake → PostgreSQL/Motherduck migration with infrastructure lead.
 
-**Data/Observability:** Reliable ETL across 250+ customer datasets, 5+ ERP schemas. Airflow + DBT pipelines. DataDog, Sentry, Mixpanel, FullStory, AWS Logs, Slack Alerts.
+- Data/Observability - Reliable ETL across 250+ customer datasets, 5+ ERP schemas. Airflow + DBT pipelines. DataDog, Sentry, Mixpanel, FullStory, AWS Logs, Slack Alerts.
 
-**CI/CD:** Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in <5m. PR → deploy in <10m. 2-10 deploys per day.
+- CI/CD - Developer velocity = faster customer iteration. 90%+ coverage, 2000+ E2E tests in <5m. PR → deploy in <10m. 2-10 deploys per day.
 
 </div>
 
@@ -56,29 +56,31 @@ _Nov 2020 – Mar 2021_
 
 Stripe ([stripe.com](https://stripe.com)) builds payment infrastructure for the internet. Frontend Infrastructure team.
 
-**TypeScript Migration:** Developer productivity improves with type safety and a larger ecosystem. Led Flow → TypeScript migration across Stripe Dashboard, Platform & Sail Design system.
+- TypeScript Migration - Developer productivity improves with type safety and a larger ecosystem. Led Flow → TypeScript migration across Stripe Dashboard, Platform & Sail Design system.
 
-**Dev Loop Iteration:** Faster iteration = happier engineers. Designed and implemented devbox-per-branch strategy for higher throughput iteration. Improved developer loop via caching middleware (Ruby/RoR). Instrumented devloop metrics in product-health dashboard.
+- Dev Loop Iteration - Faster iteration = happier engineers. Designed and implemented devbox-per-branch strategy for higher throughput iteration. Improved developer loop via caching middleware (Ruby/RoR). Instrumented devloop metrics in product-health dashboard.
 
 </div>
 
 <div class="section">
+
 ### Senior Software Engineer at Mixpanel - Hybrid (Seattle, Washington)
-*Mar 2016 – Nov 2020*
+
+_Mar 2016 – Nov 2020_
 
 Mixpanel ([mixpanel.com](https://mixpanel.com)) is a petabyte-scale product analytics platform.
 
-**UI Performance:** Customer retention correlates with speed. Achieved 10X improvement in page load times, directly increasing retention metrics. <1s P90, <100ms navigation and interaction speed.
+- UI Performance - Customer retention correlates with speed. Achieved 10X improvement in page load times, directly increasing retention metrics. <1s P90, <100ms navigation and interaction speed.
 
-**Design System:** Consistent UX builds user trust. Built Mixpanel's Design System ([design.mixpanel.com](https://design.mixpanel.com)). Fewer core components, faster feature delivery, delightful micro-interactions.
+- Design System - Consistent UX builds user trust. Built Mixpanel's Design System ([design.mixpanel.com](https://design.mixpanel.com)). Fewer core components, faster feature delivery, delightful micro-interactions.
 
-**Enterprise Features:** Large customers need control. Delivered admin settings, lexicon (data annotation), and query builder.
+- Enterprise Features - Large customers need control. Delivered admin settings, lexicon (data annotation), and query builder.
 
-**Dev Loop (HMR):** Developer iteration speed matters. Custom webpack HMR plugins reduced devloop to <5 seconds. Code changes apply without page reload.
+- Dev Loop (HMR) - Developer iteration speed matters. Custom webpack HMR plugins reduced devloop to <5 seconds. Code changes apply without page reload.
 
-**Codebase Health:** Maintainability enables velocity. Led JavaScript → TypeScript, Jade → TSX migrations. Error/Perf tracking and alerting.
+- Codebase Health - Maintainability enables velocity. Led JavaScript → TypeScript, Jade → TSX migrations. Error/Perf tracking and alerting.
 
-**CI/CD:** Reliable deploys build confidence. Per-PR staging environments, parallelized pipelines, Puppeteer smoke tests. ~30 min median deploy time.
+- CI/CD - Reliable deploys build confidence. Per-PR staging environments, parallelized pipelines, Puppeteer smoke tests. ~30 min median deploy time.
 
 </div>
 
@@ -90,13 +92,13 @@ _Aug 2015 – Feb 2016_
 
 Microsoft Edge DevTools: browser developer tools for web developers.
 
-**Startup Perf:** Developers open DevTools constantly. Improved startup performance for faster debugging workflows.
+- Startup Perf - Developers open DevTools constantly. Improved startup performance for faster debugging workflows.
 
-**DevTools Features:** Quality tools = productive developers. Bug fixes and improvements across DOM Explorer, Console, Memory Profiler, CPU Profiler, Network tab.
+- DevTools Features - Quality tools = productive developers. Bug fixes and improvements across DOM Explorer, Console, Memory Profiler, CPU Profiler, Network tab.
 
-**CI/CD:** Reliable releases build trust. Faster, more reliable pipeline with E2E tests.
+- CI/CD - Reliable releases build trust. Faster, more reliable pipeline with E2E tests.
 
-**VSCode Integration:** Cross-tool debugging improves DX. Collaborated with VSCode team on Chrome Debugger plugin.
+- VSCode Integration - Cross-tool debugging improves DX. Collaborated with VSCode team on Chrome Debugger plugin.
 
 </div>
 
@@ -108,11 +110,11 @@ _Jun 2013 – Aug 2015_
 
 Power BI ([powerbi.microsoft.com](https://powerbi.microsoft.com)) is Microsoft's enterprise business analytics platform.
 
-**Dashboard UX:** Business users expect fluid interactions. Built AngularJS dashboard with smooth 60FPS drag-and-drop, multi-touch support.
+- Dashboard UX - Business users expect fluid interactions. Built AngularJS dashboard with smooth 60FPS drag-and-drop, multi-touch support.
 
-**Visualizations:** Data insight requires clear presentation. Report rendering with Canvas and D3.js.
+- Visualizations - Data insight requires clear presentation. Report rendering with Canvas and D3.js.
 
-**Enterprise Features:** Large orgs need governance. Built Admin Settings UI.
+- Enterprise Features - Large orgs need governance. Built Admin Settings UI.
 
 </div>
 
@@ -124,11 +126,11 @@ _Mar 2009 – Dec 2013_
 
 RocketBoots ([rocketboots.com.au](https://rocketboots.com.au)) is a foot traffic video analytics consultancy. Employee #1, helped grow to 11 engineers.
 
-**Computer Vision (Beehive):** Retailers need foot traffic insights. Implemented OpenCV-based vision on embedded SOC cameras for real-time people analytics.
+- Computer Vision (Beehive) - Retailers need foot traffic insights. Implemented OpenCV-based vision on embedded SOC cameras for real-time people analytics.
 
-**ML Training Pipeline:** Accuracy drives customer value. Built genetic algorithm ML system on ~500 VM AWS cluster. Improved accuracy from 70% → 95% in hours. (Pre-CNN/GPU era)
+- ML Training Pipeline - Accuracy drives customer value. Built genetic algorithm ML system on ~500 VM AWS cluster. Improved accuracy from 70% → 95% in hours. (Pre-CNN/GPU era)
 
-**Robotics (HERMES Light):** Defense clients need autonomous surveillance. Lead developer for military-grade surveillance robot software. https://www.youtube.com/watch?v=BEba5iVmlEQ
+- Robotics (HERMES Light) - Defense clients need autonomous surveillance. Lead developer for military-grade surveillance robot software. https://www.youtube.com/watch?v=BEba5iVmlEQ
 
 </div>
 
